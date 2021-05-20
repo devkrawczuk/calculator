@@ -1,0 +1,43 @@
+@import "helper/helper";
+@import '~bootstrap';
+@import "~font-awesome";
+@import "layouts/header";
+@import "layouts/footer";
+@import "components/buttons";
+
+
+body {
+    background: $body_color;
+    font-family: Montserrat, serif;
+    color:#000;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 18px;
+}
+a{text-decoration: none; color: #000;}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.shadow{
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(92,137,199,0.4);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(92,137,199,0.4);
+    box-shadow: 0px 5px 5px 0px rgba(92,137,199,0.4);
+}
+.shadow-right{
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(92,137,199,0.4);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(92,137,199,0.4);
+  box-shadow: 5px 0px 5px 0px rgba(92,137,199,0.4);
+}
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+ul li{
+  list-style: none
+}
+input[type="text"],input[type="email"],textarea, select{display: block;}
+#apollo_form div{margin-bottom: 20px;}
+h1{margin-top: 20px;}
+td:last-child {width: 20%;}
+.table{color: #000;}
